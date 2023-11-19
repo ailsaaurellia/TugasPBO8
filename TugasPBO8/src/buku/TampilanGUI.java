@@ -153,34 +153,29 @@ public TampilanGUI() {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabelIsbn.setFont(new java.awt.Font("Times New Roman", 1, 22)); // NOI18N
         jLabelIsbn.setText("ISBN");
-        getContentPane().add(jLabelIsbn);
-        jLabelIsbn.setBounds(230, 160, 100, 39);
+        getContentPane().add(jLabelIsbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 160, 100, 39));
 
         jLabelJudul.setFont(new java.awt.Font("Times New Roman", 1, 22)); // NOI18N
         jLabelJudul.setText("Judul Buku");
-        getContentPane().add(jLabelJudul);
-        jLabelJudul.setBounds(230, 210, 130, 39);
+        getContentPane().add(jLabelJudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 210, 130, 39));
 
         jLabelTahun.setFont(new java.awt.Font("Times New Roman", 1, 22)); // NOI18N
         jLabelTahun.setText("Tahun Terbit");
-        getContentPane().add(jLabelTahun);
-        jLabelTahun.setBounds(230, 260, 170, 39);
+        getContentPane().add(jLabelTahun, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 170, 39));
 
         jLabelDaftar.setBackground(new java.awt.Color(255, 255, 255));
         jLabelDaftar.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
         jLabelDaftar.setForeground(new java.awt.Color(102, 51, 0));
         jLabelDaftar.setText("DAFTAR BUKU");
-        getContentPane().add(jLabelDaftar);
-        jLabelDaftar.setBounds(620, 70, 450, 60);
+        getContentPane().add(jLabelDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 70, 450, 60));
 
         jLabelPenerbit.setFont(new java.awt.Font("Times New Roman", 1, 22)); // NOI18N
         jLabelPenerbit.setText("Penerbit Buku");
-        getContentPane().add(jLabelPenerbit);
-        jLabelPenerbit.setBounds(230, 310, 180, 39);
+        getContentPane().add(jLabelPenerbit, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 310, 180, 39));
 
         jTextFieldjudul.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jTextFieldjudul.addActionListener(new java.awt.event.ActionListener() {
@@ -188,8 +183,7 @@ public TampilanGUI() {
                 jTextFieldjudulActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldjudul);
-        jTextFieldjudul.setBounds(510, 212, 270, 30);
+        getContentPane().add(jTextFieldjudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 212, 270, 30));
 
         jTextFieldisbn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jTextFieldisbn.addActionListener(new java.awt.event.ActionListener() {
@@ -197,8 +191,7 @@ public TampilanGUI() {
                 jTextFieldisbnActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldisbn);
-        jTextFieldisbn.setBounds(510, 162, 270, 30);
+        getContentPane().add(jTextFieldisbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 162, 270, 30));
 
         jTextFieldtahun.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jTextFieldtahun.addActionListener(new java.awt.event.ActionListener() {
@@ -206,8 +199,7 @@ public TampilanGUI() {
                 jTextFieldtahunActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldtahun);
-        jTextFieldtahun.setBounds(510, 262, 270, 30);
+        getContentPane().add(jTextFieldtahun, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 262, 270, 30));
 
         jTextFieldpenerbit.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jTextFieldpenerbit.addActionListener(new java.awt.event.ActionListener() {
@@ -215,8 +207,7 @@ public TampilanGUI() {
                 jTextFieldpenerbitActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextFieldpenerbit);
-        jTextFieldpenerbit.setBounds(510, 310, 270, 30);
+        getContentPane().add(jTextFieldpenerbit, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 310, 270, 30));
 
         jButtonSimpan.setBackground(new java.awt.Color(0, 102, 102));
         jButtonSimpan.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -227,8 +218,7 @@ public TampilanGUI() {
                 jButtonSimpanActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonSimpan);
-        jButtonSimpan.setBounds(420, 410, 130, 50);
+        getContentPane().add(jButtonSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 410, 130, 50));
 
         jButtonUpdate.setBackground(new java.awt.Color(255, 204, 0));
         jButtonUpdate.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -239,8 +229,7 @@ public TampilanGUI() {
                 jButtonUpdateActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonUpdate);
-        jButtonUpdate.setBounds(680, 410, 130, 50);
+        getContentPane().add(jButtonUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 410, 130, 50));
 
         jButtonHapus.setBackground(new java.awt.Color(204, 153, 0));
         jButtonHapus.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -251,8 +240,7 @@ public TampilanGUI() {
                 jButtonHapusActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonHapus);
-        jButtonHapus.setBounds(920, 410, 130, 50);
+        getContentPane().add(jButtonHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 410, 130, 50));
 
         jTableBuku.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -276,8 +264,7 @@ public TampilanGUI() {
         });
         jScrollPaneBuku.setViewportView(jTableBuku);
 
-        getContentPane().add(jScrollPaneBuku);
-        jScrollPaneBuku.setBounds(420, 530, 634, 160);
+        getContentPane().add(jScrollPaneBuku, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 530, 634, 160));
 
         jButtonCetak.setBackground(new java.awt.Color(255, 153, 153));
         jButtonCetak.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -288,14 +275,13 @@ public TampilanGUI() {
                 jButtonCetakActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCetak);
-        jButtonCetak.setBounds(140, 490, 190, 50);
+        getContentPane().add(jButtonCetak, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 490, 190, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ailsa\\Downloads\\WhatsApp Image 2023-10-22 at 21.21.07.jpeg")); // NOI18N
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1610, 910);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1610, 910));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextFieldjudulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldjudulActionPerformed
